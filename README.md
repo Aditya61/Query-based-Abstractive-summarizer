@@ -15,7 +15,6 @@ This project implements an abstractive summarization system that can answer user
 - [Dataset](#dataset)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Web Application](#web-application)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Team](#team)
 - [References](#references)
@@ -167,6 +166,9 @@ python app.py
 **Institution**: Faculty of Engineering & Technology, Sri Sri University, Cuttack
 
 ---
+
+## 📚 References
+
 1. Suleiman, D. & Awajan, A. (2020). Deep Learning Based Abstractive Text Summarization.
 2. Shakila et al. (2024). Abstractive Text Summarization: State of the Art.
 3. Baumel et al. (2018). Query Focused Abstractive Summarization.
