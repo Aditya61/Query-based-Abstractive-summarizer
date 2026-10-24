@@ -111,17 +111,35 @@ app.py
 
 ---
 
-## 🖼️ Screenshots
-
-> 📌 Add screenshots of your interface in this section if needed.
-
----
-
 ## 🛠️ Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/qfs-summarizer.git
+git clone https://github.com/Aditya61/Query-based-Abstractive-summarizer.git
+cd qfs-summarizer
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate     # For Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
+cd qfs-summarizer
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # For Linux/macOS
+venv\Scripts\activate     # For Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask app
+python app.py
 cd qfs-summarizer
 
 # Create virtual environment
@@ -149,9 +167,6 @@ python app.py
 **Institution**: Faculty of Engineering & Technology, Sri Sri University, Cuttack
 
 ---
-
-## 📚 References
-
 1. Suleiman, D. & Awajan, A. (2020). Deep Learning Based Abstractive Text Summarization.
 2. Shakila et al. (2024). Abstractive Text Summarization: State of the Art.
 3. Baumel et al. (2018). Query Focused Abstractive Summarization.
